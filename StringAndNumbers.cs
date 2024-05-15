@@ -34,7 +34,6 @@ namespace Strings_And_Numbers
                 }
 
             }
-
                List<int> mapValue = map.Values.ToList();
                mapValue.Sort();
                mapValue.Reverse();
@@ -57,8 +56,6 @@ namespace Strings_And_Numbers
                 }
 
             }
-
-
             int sum = 0;
 
             for (int i = 0; i < sSplit.Length; i++)
@@ -69,8 +66,6 @@ namespace Strings_And_Numbers
 
                     sum += int.Parse(currentNum);
                 }
-
-
             }
 
             Console.WriteLine(sum);
